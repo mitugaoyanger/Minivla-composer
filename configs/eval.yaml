@@ -1,0 +1,12 @@
+checkpoint_path: results/checkpoints/bc_policy_v2.pt
+num_eval_episodes: 30
+max_steps: 80
+device: cpu
+save_examples: 5
+image_size: 128
+num_objects: 4
+target_radius: 0.12
+gripper_speed: 0.04
+grasp_radius: 0.06
+randomize_layout: true
+seed: 123

@@ -1,0 +1,14 @@
+dataset_dir: results/datasets/demo_v2
+batch_size: 32
+epochs: 30
+learning_rate: 0.001
+weight_decay: 0.00001
+val_fraction: 0.1
+motion_loss_weight: 1.0
+gripper_loss_weight: 1.0
+grounding_loss_weight: 0.5
+device: cpu
+seed: 42
+checkpoint_path: results/checkpoints/bc_policy_v2.pt
+loss_curve_path: results/figures/train_loss_v2.png
+history_path: results/tables/train_history_v2.json

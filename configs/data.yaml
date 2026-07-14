@@ -1,0 +1,12 @@
+num_episodes: 1000
+max_steps: 80
+save_dir: results/datasets/demo_v2
+success_only: true
+image_size: 128
+num_objects: 4
+target_radius: 0.12
+gripper_speed: 0.04
+grasp_radius: 0.06
+randomize_layout: true
+action_noise_std: 0.003
+seed: 7

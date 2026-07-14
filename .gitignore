@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+.idea/
+results/datasets/*
+results/checkpoints/*
+results/figures/*
+results/videos/*
+results/tables/*
+!results/datasets/.gitkeep
+!results/checkpoints/.gitkeep
+!results/figures/.gitkeep
+!results/videos/.gitkeep
+!results/tables/.gitkeep
